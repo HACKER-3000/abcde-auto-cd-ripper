@@ -22,9 +22,9 @@ def begin_rip(directory):
 
 # These directories will need to change based on where your cd's mount
 d1 = Process(target=begin_rip, args=('/run/user/1000/gvfs/cdda:host=sr0',))
-d2 = Process(target=begin_rip, args=('/run/user/1000/gvfs/cdda:host=sr1',))
-d3 = Process(target=begin_rip, args=('/run/user/1000/gvfs/cdda:host=sr2',))
+#d2 = Process(target=begin_rip, args=('/run/user/1000/gvfs/cdda:host=sr1',))
+#d3 = Process(target=begin_rip, args=('/run/user/1000/gvfs/cdda:host=sr2',))
 
 d1.start()
-d2.start()
-d3.start()
+#d2.start()
+#d3.start()
